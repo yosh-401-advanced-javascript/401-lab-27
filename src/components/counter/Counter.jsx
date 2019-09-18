@@ -10,6 +10,10 @@ class Counter extends React.Component {
     };
   }
 
+  /**
+   * @Function to handle increments
+   * @param e
+   */
   handleIncrement = e => {
     // e.preventDefault();
     this.setState((previousState) => {
@@ -17,6 +21,11 @@ class Counter extends React.Component {
     })
   };
 
+  /**
+   * @Function to handle decrements
+   * @Function changes the color of the counter
+   * @param e
+   */
   handleDecrement = e => {
     // e.preventDefault();
     this.setState((previousState) => {
