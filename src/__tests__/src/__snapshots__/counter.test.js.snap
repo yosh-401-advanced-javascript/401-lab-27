@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Footer  should should render correctly 1`] = `
+<footer>
+  © 2018 Code Fellows
+</footer>
+`;
+
+exports[`Testing Header  should should render correctly 1`] = `
+<header>
+  <h1>
+    Counters R Fun
+  </h1>
+</header>
+`;
+
+exports[`should change state on click 1`] = `
+<section
+  className="counter"
+>
+  <a
+    className="down clicker"
+    href="#"
+    onClick={[Function]}
+  >
+    -
+  </a>
+  <span
+    className="count "
+  >
+    0
+  </span>
+  <a
+    className="up clicker"
+    href="#"
+    onClick={[Function]}
+  >
+    +
+  </a>
+</section>
+`;
+
+exports[`should render correctly 1`] = `
+<section
+  className="counter"
+>
+  <a
+    className="down clicker"
+    href="#"
+    onClick={[Function]}
+  >
+    -
+  </a>
+  <span
+    className="count "
+  >
+    0
+  </span>
+  <a
+    className="up clicker"
+    href="#"
+    onClick={[Function]}
+  >
+    +
+  </a>
+</section>
+`;
