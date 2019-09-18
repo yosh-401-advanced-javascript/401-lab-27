@@ -5,6 +5,7 @@
     "commonjs": true,
     "jest": true,
     "es6": true
+
   },
   "globals": {
     "fail":true
