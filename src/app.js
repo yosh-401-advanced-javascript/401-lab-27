@@ -45,7 +45,7 @@ class Counter extends React.Component {
   }
 }
 
-class App extends React.Component {
+class App extends Counter {
   render() {
     return (
         <React.Fragment>
@@ -57,4 +57,4 @@ class App extends React.Component {
   }
 }
 
-export default Counter;
+export default { App, Counter } ;
