@@ -9,59 +9,31 @@ exports[`Testing Footer  should should render correctly 1`] = `
 exports[`Testing Header  should should render correctly 1`] = `
 <header>
   <h1>
-    Counters R Fun
+    Header
   </h1>
 </header>
 `;
 
-exports[`should change state on click 1`] = `
-<section
-  className="counter"
->
-  <a
-    className="down clicker"
-    href="#"
-    onClick={[Function]}
-  >
-    -
-  </a>
-  <span
-    className="count "
-  >
-    0
-  </span>
-  <a
-    className="up clicker"
-    href="#"
-    onClick={[Function]}
-  >
-    +
-  </a>
-</section>
-`;
-
 exports[`should render correctly 1`] = `
-<section
+<div
   className="counter"
 >
-  <a
-    className="down clicker"
-    href="#"
-    onClick={[Function]}
-  >
-    -
-  </a>
-  <span
-    className="count "
+  <h4
+    className="error"
   >
     0
-  </span>
-  <a
-    className="up clicker"
-    href="#"
+  </h4>
+  <button
+    className="incrementButton"
     onClick={[Function]}
   >
-    +
-  </a>
-</section>
+    Increment me!
+  </button>
+  <button
+    className="decrementButton"
+    onClick={[Function]}
+  >
+    Decrement me!
+  </button>
+</div>
 `;
