@@ -1,5 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Testing App  should should render correctly 1`] = `
+Array [
+  <header>
+    <h1>
+      Header
+    </h1>
+  </header>,
+  <div
+    className="counter"
+  >
+    <h4
+      className="error"
+    >
+      0
+    </h4>
+    <button
+      className="incrementButton"
+      onClick={[Function]}
+    >
+      Increment me!
+    </button>
+    <button
+      className="decrementButton"
+      onClick={[Function]}
+    >
+      Decrement me!
+    </button>
+  </div>,
+  <footer>
+    © 2018 Code Fellows
+  </footer>,
+]
+`;
+
 exports[`Testing Footer  should should render correctly 1`] = `
 <footer>
   © 2018 Code Fellows
