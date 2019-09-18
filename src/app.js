@@ -45,7 +45,7 @@ class Counter extends React.Component {
   }
 }
 
-class App extends Counter {
+class App extends React.Component {
   render() {
     return (
         <React.Fragment>
