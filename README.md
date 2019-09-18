@@ -7,10 +7,10 @@
 Testing react apps with enzyme and jest.
 
 ### Links and Resources
-* [submission PR](https://github.com/yosh-401-advanced-javascript/lab-00/pull/2)
-* [travis](https://travis-ci.com/yosh-401-advanced-javascript/lab-00.svg?branch=master)
-* [front-end](https://yosh-lab-00.herokuapp.com/) (when applicable)
-
+* [submission PR](https://github.com/yosh-401-advanced-javascript/401-lab-27/pull/1)
+* [travis](https://travis-ci.com/yosh-401-advanced-javascript/401-lab-27/builds/128102023)
+* [Netlify](https://gallant-franklin-6280c9.netlify.com/)
+* [AWS](http://yosh-401-lab-27.s3-website.us-east-2.amazonaws.com)
 #### Documentation
 * [jsdoc](https://yosh-lab-00.herokuapp.com/docs) (Server assignments)
 
