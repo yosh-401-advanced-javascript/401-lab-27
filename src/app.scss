@@ -1,0 +1,20 @@
+$background-color: teal;
+$color: red;
+*{
+  margin: 0 auto;
+}
+
+Header {
+  border: solid 1px black;
+  background: $background-color;
+}
+
+.error {
+  color: red;
+}
+
+.counter{
+  color: black;
+}
+
+
