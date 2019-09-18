@@ -6,7 +6,7 @@ class Counter extends React.Component {
     super(props);
     this.state = {
       counter: 0,
-      error: 'error'
+      error: 'error',
     };
   }
 
@@ -14,11 +14,11 @@ class Counter extends React.Component {
    * @Function to handle increments
    * @param e
    */
-  handleIncrement = e => {
+  handleIncrement = (e) => {
     // e.preventDefault();
     this.setState((previousState) => {
       return { counter: previousState.counter + 1 };
-    })
+    });
   };
 
   /**
@@ -26,28 +26,29 @@ class Counter extends React.Component {
    * @Function changes the color of the counter
    * @param e
    */
-  handleDecrement = e => {
+  handleDecrement = (e) => {
     // e.preventDefault();
     this.setState((previousState) => {
-      if(this.state.counter <= 0){
-        return { error: 'error'};
-      } else {
-        return { counter: previousState.counter - 1, error: 'counter' };
+      if (this.state.counter <= 0) {
+        return { error: 'error' };
       }
-    })
+      return { counter: previousState.counter - 1, error: 'counter' };
+    });
   };
 
   render() {
     return (
         <div className='counter'>
           <h4 className={this.state.error}>{this.state.counter}</h4>
+          <div className='flexContainer'>
           <button className='incrementButton' onClick={this.handleIncrement}>Increment me!
           </button>
           <button className='decrementButton' onClick={this.handleDecrement} >Decrement me!
           </button>
+          </div>
         </div>
     );
   }
 }
 
-export default Counter
+export default Counter;
