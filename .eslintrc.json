@@ -8,7 +8,10 @@
 
   },
   "globals": {
-    "fail":true
+    "fail":true,
+    "shallow": true,
+    "render": true,
+    "mount": true
   },
   "extends": "eslint:recommended",
   "parserOptions": {
