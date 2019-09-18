@@ -34,4 +34,4 @@ Testing react apps with enzyme and jest.
 * Lint tests are run with 'npm lint'
 
 #### UML
-Link to an image of the UML for your application and response to events
+[UML](assets/uml.png)
