@@ -1,8 +1,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Counter from '../../app'
+import Counter from '../../components/counter/Counter'
 import Footer from '../../components/footer/footer'
 import Header from '../../components/header/header'
+import App from '../../app'
 
 describe('Testing Counter', () => {
   it('is alive at application start', function() {
@@ -56,3 +57,12 @@ describe('Testing Header ', () => {
   });
 
 });
+describe('Testing App ', () => {
+  it('should should render correctly', () => {
+    const tree = renderer.create(<App />).toJSON();
+    expect(tree).toMatchSnapshot();
+
+  });
+
+});
+
